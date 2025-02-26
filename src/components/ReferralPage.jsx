@@ -47,12 +47,7 @@ export default function ReferralPage() {
             What Are The <span className="text-blue-500">Referral Benefits?</span>
           </h2>
           <div className="flex items-center space-x-4">
-            <label className="flex items-center space-x-2 cursor-pointer">
-              <span className="text-gray-600">Enrolled</span>
-              <input type="checkbox" checked={enrolled} onChange={() => setEnrolled(!enrolled)} className="toggle-checkbox" />
-            </label>
-            <div className="w-10 h-10 bg-green-500 text-white rounded-full flex items-center justify-center text-lg font-bold">G</div>
-          </div>
+            </div>
         </div>
 
         {/* Table */}
